@@ -1,0 +1,79 @@
+.footer {
+  width: 100%;
+  height: var(--footer-height);
+  background: linear-gradient(135deg, var(--colours-dark-2) 0%, var(--colours-dark-1) 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a {
+  display: block;
+  line-height: 0;
+}
+
+.icon {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0.75rem;
+
+  transition: fill 0.55s ease-in-out,
+              stroke 0.15s ease-in-out;
+
+  overflow: visible;
+
+  fill: rgba(255, 255, 255, 0);
+}
+
+
+.linkedin:hover svg {
+  stroke: hsl(203, 100%, 69%);
+}
+.github:hover svg {
+  stroke: hsl(0, 0%, 30%);
+}
+.mail:hover svg {
+  stroke: rgb(247, 0, 255);
+}
+.file:hover svg {
+  stroke: hsl(203, 100%, 69%);
+}
+
+.instagram svg {
+  stroke: url(#instagram);
+  transform: rotate(-90deg);
+}
+.instagram stop {
+  transition: stop-color 0.2s ease-in-out;
+}
+.instagram:not(:hover) stop {
+  stop-color: currentColor!important;
+}
+
+.code {
+  position: absolute;
+  right: 1rem;
+
+  line-height: 0;
+  display: block;
+}
+
+@media (max-width: 650px) {
+  .code {
+    display: none;
+  }
+}
+
+.code svg {
+  stroke: var(--colours-dark-5);
+}
+
+.code:hover svg {
+  stroke: currentColor;
+}

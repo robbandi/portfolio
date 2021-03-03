@@ -1,0 +1,120 @@
+/* Generated with http://k88hudson.github.io/syntax-highlighting-theme-generator/www */
+/* http://k88hudson.github.io/react-markdocs */
+/**
+ * @author k88hudson
+ *
+ * Based on prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+/*********************************************************
+* Tokens
+*/
+.namespace {
+  opacity: .7;
+}
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: var(--colours-dark-5);
+}
+.token.punctuation {
+  color: var(--colours-dark-7)
+}
+.token.property,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: var(--colours-purple);
+}
+.token.selector,
+.token.builtin,
+.token.inserted {
+  color: var(--colours-blue);
+}
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: var(--colours-yellow);
+}
+.token.atrule,
+.token.attr-value,
+.token.keyword,
+.token.attr-name {
+  color: var(--colours-pink);
+}
+.token.function {
+  color: var(--colours-indigo);
+}
+.token.regex,
+.token.important,
+.token.variable,
+.token.tag {
+  color: var(--colours-orange);
+}
+
+.token.string,
+.token.char {
+  color: var(--colours-light);
+}
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+.token.entity {
+  cursor: help;
+}
+
+.token.interpolation {
+  color: var(--colours-blue);
+}
+
+.token.argument {
+  color: var(--colours-orange);
+}
+
+.token.script.language-javascript {
+  color: var(--colours-light);
+}
+
+.language-bash .token.variable {
+  color: var(--colours-indigo);
+}
+
+.language-swift .token.builtin {
+  color: var(--colours-orange);
+}
+
+pre .language-txt .highlight:nth-of-type(8n+1) {
+  color: var(--colours-pink-red);
+}
+pre .language-txt .highlight:nth-of-type(8n+2) {
+  color: var(--colours-orange);
+}
+pre .language-txt .highlight:nth-of-type(8n+3) {
+  color: var(--colours-yellow);
+}
+pre .language-txt .highlight:nth-of-type(8n+4) {
+  color: var(--colours-green);
+}
+pre .language-txt .highlight:nth-of-type(8n+5) {
+  color: var(--colours-blue);
+}
+pre .language-txt .highlight:nth-of-type(8n+6) {
+  color: var(--colours-indigo);
+}
+pre .language-txt .highlight:nth-of-type(8n+7) {
+  color: var(--colours-purple);
+}
+pre .language-txt .highlight:nth-of-type(8n+8) {
+  color: var(--colours-pink);
+}
